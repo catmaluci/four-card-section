@@ -1,0 +1,32 @@
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey-500: hsl(234, 12%, 34%);
+  --color-grey-400: hsl(212, 6%, 44%);
+
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: #FAFBFC;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+main {
+  background-color: var(--color-white);
+ 
+}
+
+
+footer {
+  margin: 6%;
+  bottom: 0;
+  text-align: center;
+}
