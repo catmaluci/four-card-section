@@ -56,7 +56,8 @@ section {
   width:300px;
   padding: 1.2em;
   border-radius: 1em;
-  color: var(--color-grey-400);box-shadow: 0 0px 20px hsl(30, 38%, 90%);
+  color: var(--color-grey-400);
+  box-shadow: 10px 10px 10px 0 #eef2f6;
   border-radius: 8px;
   overflow: hidden;
   margin: 2em;
@@ -79,10 +80,45 @@ h3 {
 }
 
 .team-builder {
-  height: 200px;
-  width:300px;
+ border-top: solid;
+ border-color: red;
 }
+
+.supervisor {
+ border-top: solid;
+ border-color: turquoise;
+}
+
+.karma {
+ border-top: solid;
+ border-color: orange;
+}
+
+.calculator {
+ border-top: solid;
+ border-color: dodgerblue;
+}
+
 footer {
   margin: 6%;
   text-align: center;
+}
+
+
+@media screen and (max-width: 920px) {
+  main {
+    flex-direction: column;
+    max-width: 350px;
+    
+  }
+
+
+  section {
+     flex-direction: column;
+ 
+    
+  }
+
+
+
 }
