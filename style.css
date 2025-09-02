@@ -4,7 +4,7 @@
   --color-grey-400: hsl(212, 6%, 44%);
 
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+
 }
 
 body {
@@ -24,7 +24,7 @@ header {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  width: 50%;
+  width: 30%;
   color: var(--color-grey-400);
 }
 
@@ -61,6 +61,7 @@ section {
   border-radius: 8px;
   overflow: hidden;
   margin: 2em;
+  position: relative;
  
 }
 
@@ -80,23 +81,33 @@ h3 {
 }
 
 .team-builder {
- border-top: solid;
+ border-top: solid 5px;
  border-color: red;
+
 }
 
 .supervisor {
- border-top: solid;
+ border-top: solid 5px;
  border-color: turquoise;
 }
 
 .karma {
- border-top: solid;
+ border-top: solid 5px;
  border-color: orange;
 }
 
 .calculator {
- border-top: solid;
+ border-top: solid 5px;
  border-color: dodgerblue;
+}
+
+
+img {
+position: absolute; 
+bottom: 1.8rem;  
+right: 1.8rem; 
+width: 60px;
+height: auto;
 }
 
 footer {
@@ -108,16 +119,26 @@ footer {
 @media screen and (max-width: 920px) {
   main {
     flex-direction: column;
-    max-width: 350px;
-    
+    max-width: 350px; 
   }
-
 
   section {
      flex-direction: column;
- 
-    
   }
+
+  header {
+    width: 90%;
+  }
+
+  h1 {
+  font-size: 1.8em;
+ 
+}
+
+h2 {
+
+  font-size: 1.8em;
+}
 
 
 
